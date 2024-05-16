@@ -11,3 +11,93 @@
 1]Server Virtualization: Consolidating multiple servers onto a single physical machine.
 2]Desktop Virtualization: Running multiple desktop environments on a single PC.
 3]Cloud Computing: Creating and managing VMs in data centers for cloud services.
+
+#Agile Software Development:
+A methodology and philosophy that emphasizes user feedback, software quality, and the ability to respond quickly to changes and new product requirements.
+Agile teams work in short iterations (sprints) to deliver incremental value to users.
+
+#Continuous Integration (CI):
+A practice where developers frequently integrate their code changes into a shared repository.
+CI ensures that code is automatically built, tested, and validated, catching issues early in the development process.
+
+#Continuous Delivery (CD):
+A software delivery process where updates are planned, implemented, and released to end-users on a steady, constant basis.
+CD aims to minimize manual intervention and streamline the deployment pipeline.
+
+#Infrastructure-as-Code (IaC):
+Treating infrastructure (servers, networks, etc.) as code by defining it in configuration files.
+IaC tools (such as Terraform or Ansible) allow you to manage infrastructure programmatically.
+
+#Microservices:
+An architectural style where applications are broken down into small, independent services.
+Each microservice focuses on a specific business capability and communicates via APIs.
+
+#Immutable Infrastructure:
+A concept where servers are treated as disposable and never modified after deployment.
+Instead of patching servers, new instances are created with updated configurations.
+
+#Behavior-Driven Development (BDD):
+An evolution of test-driven development (TDD) that involves collaboration between development and business stakeholders.
+BDD uses a human-readable DSL to define user stories and guide application development.
+
+#Artifact:
+Any description of a process used to create software, including diagrams, user requirements, and UML models.
+Artifacts provide documentation and context for development.
+
+#Capacity Test:
+A test to determine the maximum number of users a computer, server, or application can support before failing.
+Helps identify performance bottlenecks and scalability limits.
+
+#Agent:
+A program installed on specific physical servers to handle the execution of various processes.
+Agents play a crucial role in managing tasks within the DevOps ecosystem.
+
+#DEVOPS Tools & Technoloies:
+1]Continuous Integration (CI) and Continuous Deployment (CD):
+Jenkins: An open-source automation server for building, testing, and deploying code.
+GitLab CI/CD: Integrated CI/CD pipelines within GitLab.
+Travis CI: A cloud-based CI service for GitHub repositories.
+CircleCI: Provides automated testing and deployment workflows.
+
+2]Configuration Management:
+Ansible: An open-source automation tool for configuration management and application deployment.
+Chef: Automates infrastructure provisioning and configuration.
+Puppet: Manages infrastructure as code.
+
+3]Containerization and Orchestration:
+Docker: Creates lightweight, portable containers for applications.
+Kubernetes: Orchestrates and manages containerized applications.
+OpenShift: A Kubernetes-based container platform by Red Hat.
+
+4]Infrastructure-as-Code (IaC):
+Terraform: Defines infrastructure using declarative configuration files.
+CloudFormation: Infrastructure provisioning for AWS resources.
+
+5]Monitoring and Observability:
+Prometheus: Collects metrics and monitors systems.
+Grafana: Visualizes data from various sources.
+ELK Stack (Elasticsearch, Logstash, Kibana): Analyzes logs and provides insights.
+
+6]Collaboration and Communication:
+Slack: Facilitates team communication.
+Microsoft Teams: Integrates with other tools for collaboration.
+Confluence: A knowledge-sharing platform.
+
+7]Version Control:
+Git: The most widely used distributed version control system.
+GitHub: A platform for hosting Git repositories.
+Bitbucket: Provides Git and Mercurial repositories.
+
+8]Cloud Platforms:
+Amazon Web Services (AWS): Offers a wide range of services for DevOps.
+Microsoft Azure: Provides cloud services and DevOps tools.
+Google Cloud Platform (GCP): Supports containerization and automation.
+
+9]Security and Compliance:
+SonarQube: Scans code for security vulnerabilities.
+OWASP ZAP: Identifies security issues in web applications.
+HashiCorp Vault: Manages secrets and encryption.
+
+10]Collaborative Design and Planning:
+Mural and Miro: Tools for brainstorming and user research.
+Jira Product Discovery: Organizes project information and prioritizes actions.
