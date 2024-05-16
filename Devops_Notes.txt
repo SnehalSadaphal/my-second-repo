@@ -1,0 +1,13 @@
+#Devops - Collaboration, Automation, Continuous delivery
+#SDLC - Provides guidelines for structured development
+#Agile - emphasizes flexibility, iterative development, and customer feedback
+
+#Virtualization is a powerful technique that allows us to create virtual versions of computer hardware, software, and other resources. Instead of dealing directly with physical components, we work with simulated environments.
+*Imagine you have a single physical computer. With virtualization, you can split it into several virtual machines (VMs).
+*The magic behind virtualization is the hypervisor. It’s a special software layer that connects directly to the physical hardware.
+1]Type 1 Hypervisor: Installs directly on the physical hardware. It runs VMs without an underlying operating system. Examples include VMware vSphere/ESXi and Microsoft Hyper-V.
+2]Type 2 Hypervisor: Runs on top of an existing operating system. It’s like a software layer that hosts VMs. Examples include Oracle VirtualBox and VMware Workstation.
+*Use Cases:
+1]Server Virtualization: Consolidating multiple servers onto a single physical machine.
+2]Desktop Virtualization: Running multiple desktop environments on a single PC.
+3]Cloud Computing: Creating and managing VMs in data centers for cloud services.
