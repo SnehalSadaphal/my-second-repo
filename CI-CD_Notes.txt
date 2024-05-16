@@ -1,0 +1,66 @@
+#What is CI/CD?:
+Continuous Integration (CI): Developers frequently integrate their code changes into a shared repository. Automated builds and tests ensure code quality.
+Continuous Deployment (CD): Approved code changes are automatically deployed to production or other environments.
+
+#Example CI/CD Pipeline:
+Imagine you’re working on a web application hosted on GitHub. Here’s how CI/CD could work:
+
+1. Source Code Control:
+Host your code on GitHub (or any other version control system).
+Collaborate with other developers, create branches, and commit changes.
+
+2. Continuous Integration:
+Use a CI/CD platform (e.g., CircleCI, GitLab CI/CD, or GitHub Actions).
+Whenever you commit code, the CI system:
+Builds your application.
+Runs unit tests.
+Checks for code quality (linting, security scans, etc.).
+
+3. Deploy Code to UAT (User Acceptance Testing):
+Configure your CI/CD system to deploy the code to a UAT server (a staging environment).
+In this environment, stakeholders (testers, product owners) can review the changes.
+
+4. Deploy to Production:
+After UAT approval, reuse the CI/CD steps to deploy the code to production.
+The application is now live for end-users.
+
+#Tools and Services:
+GitHub Actions: Custom-built workflows triggered by events (e.g., commits, pull requests).
+CircleCI: Cloud-based CI/CD service.
+GitLab CI/CD: Integrated within GitLab repositories.
+AWS UAT Server: The staging environment for user testing.
+
+Remember, CI/CD streamlines development, reduces manual work, and ensures faster, reliable software delivery.
+
+-----------------------CREATING CI-CD PIPELINE----------------------------------------
+
+1]Define Your Workflow:
+First, outline your software development workflow. Identify stages like development, testing, staging, and production. Define criteria for progression between these stages1.
+
+2]Infrastructure Setup:
+Set up the necessary infrastructure to support your CI/CD pipeline. This includes servers, databases, and any other required resources1.
+
+3]Version Control:
+Use a version control system (e.g., Git) to manage your codebase. Commit your code changes regularly to the repository1.
+
+4]Build:
+Configure your CI/CD tool (e.g., Jenkins, GitLab CI/CD) to build your application automatically whenever changes are pushed to the repository.
+The build process compiles your code, runs tests, and generates artifacts2.
+
+5]Test:
+Set up automated tests (unit tests, integration tests, etc.) to validate your code.
+If any tests fail, the pipeline should halt and notify the team2.
+
+6]Deploy:
+Define deployment stages (e.g., staging, production).
+Deploy your application to a staging environment first for further testing.
+If everything looks good, proceed to deploy to production2.
+
+7]Monitor:
+Implement monitoring and logging to track the health and performance of your application.
+Set up alerts for critical issues1.
+
+Example Tools:
+GitLab CI/CD: GitLab provides an integrated CI/CD platform. You can create a .gitlab-ci.yml file in your repository to define your pipeline3.
+Jenkins: Jenkins is a popular open-source automation server. You can create a Jenkinsfile to define your pipeline stages2.
+Remember that CI/CD pipelines can be customized based on your project’s requirements. Start with the basics, and as your project grows, enhance your pipeline with additional features! 
