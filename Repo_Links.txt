@@ -1,0 +1,2 @@
+ChatGpt Command Prompts: https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv
+
